@@ -2559,6 +2559,8 @@ extern "C" {
 
     GGML_API const struct ggml_type_traits * ggml_get_type_traits(enum ggml_type type);
 
+    GGML_API void ggml_cpu_print_tensor_op_perf();
+
 #ifdef  __cplusplus
 }
 #endif

@@ -1223,6 +1223,8 @@ extern "C" {
 
     LLAMA_API void llama_perf_dump_yaml(FILE * stream, const struct llama_context * ctx);
 
+    LLAMA_API void                           llama_print_tensor_op_perf();
+
 #ifdef __cplusplus
 }
 #endif

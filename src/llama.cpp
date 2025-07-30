@@ -22378,3 +22378,7 @@ void llama_log_callback_default(ggml_log_level level, const char * text, void * 
     fputs(text, stderr);
     fflush(stderr);
 }
+
+void llama_print_tensor_op_perf() {
+    ggml_cpu_print_tensor_op_perf();
+}
